@@ -1,0 +1,12 @@
+#include"SalesPerson.h"
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	SalesPerson s1;
+	s1.display();
+
+	SalesPerson s2(10,1000,5,3 ,101, "Shubhankar", 23, 4, 2005);
+	s2.display();
+}
